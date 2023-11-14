@@ -1,0 +1,8 @@
+-i https://pypi.org/simple
+iniconfig==2.0.0 ; python_version >= '3.7'
+packaging==23.2 ; python_version >= '3.7'
+pluggy==1.3.0 ; python_version >= '3.8'
+pytest==7.4.2
+pygame==2.5.2
+
+
