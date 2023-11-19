@@ -23,7 +23,6 @@ Instructions
 
 ## Dependencies
 
-List external dependencies you used in this project and the reason for their inclusion in the following table:
 
 | Dependency | Reason for inclusion |
 |:----------:|:---------------------|
