@@ -12,14 +12,14 @@ BLACK = (0, 0, 0)
 BULLET_COOLDOWN = 320
 
 #image_paths
-PLAYER_IMAGE_PATH = r'assets/pixil-frame-0.png'
-BULLET_IMAGE_PATH = r'assets/bullet-file.png'
-ENEMY_IMAGE_PATH = r'assets/enemy-file.png'
-BACKGROUND_IMAGE_PATH = r'assets/background.png'
-START_BUTTON_IMAGE_PATH = r'assets/start_button.png'
-EXIT_BUTTON_IMAGE_PATH = r'assets/exit_button_test.png'
-RESTART_BUTTON_IMAGE_PATH = r'assets/start_button.png'
-YUKI_IMAGE_PATH = r'assets/yuki.png'
+PLAYER_IMAGE_PATH = r'project/assets/pixil-frame-0.png'
+BULLET_IMAGE_PATH = r'project/assets/bullet-file.png'
+ENEMY_IMAGE_PATH = r'project/assets/enemy-file.png'
+BACKGROUND_IMAGE_PATH = r'project/assets/background.png'
+START_BUTTON_IMAGE_PATH = r'project/assets/start_button.png'
+EXIT_BUTTON_IMAGE_PATH = r'project/assets/exit_button_test.png'
+RESTART_BUTTON_IMAGE_PATH = r'project/assets/start_button.png'
+YUKI_IMAGE_PATH = r'project/assets/yuki.png'
 
 #variables
 speed_level = 1

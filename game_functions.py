@@ -10,6 +10,7 @@ def draw_background(screen, alpha=100):
     temp_background.set_alpha(alpha)
     screen.blit(temp_background, (0, 0))
 
+#in the main.py the game_over = False is for this
 def reduce_player_health(player, amount):
     player.health -= amount
     if player.health <= 0:
@@ -37,3 +38,15 @@ def main_menu(images, screen, clock, start_game):
         exit_button.draw(screen)
         pygame.display.flip()
         clock.tick(FPS)
+        
+class GameState:
+    def __init__(self):
+        self.ENEMY_SPEED = ENEMY_SPEED  # Set initial enemy speed
+        self.score = 0
+        self.kill_counter = 0
+        self.speed_level = 1
+        self.last_bullet_fire_time = 0
+        self.BULLET_COOLDOWN = BULLET_COOLDOWN  # Set initial bullet cooldown
+
+    def update_enemy_speed(self, increment):
+        self.ENEMY_SPEED += increment
